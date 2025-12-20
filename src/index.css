@@ -1,0 +1,75 @@
+:root {
+  --bg-primary: #05070d;
+  --bg-surface: #0b1020;
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --text-primary: #e6e8ee;
+  --text-secondary: #9aa0b5;
+  --text-muted: #6b7280;
+  --accent-primary: #7aa2ff;
+  --accent-soft: rgba(122, 162, 255, 0.35);
+  --title-gradient: linear-gradient(180deg,rgba(229, 231, 235, 1) 0%, rgba(161, 165, 173, 1) 100%);
+  --subtitle-color: rgb(228, 203, 147);
+  --subtitle-gradient: linear-gradient(180deg,rgb(241, 197, 102) 0%, rgba(229, 231, 235, 1) 100%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Roboto, Inter, sans-serif;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg-primary);
+  position: relative;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+
+  background:
+    /* DESTELLO PRINCIPAL (hero / título) */
+    radial-gradient(
+      980px 600px at 50% 22%,
+      rgba(56,189,248,.24) 0%,
+      rgba(56,189,248,.14) 30%,
+      rgba(56,189,248,.07) 48%,
+      transparent 65%
+    ),
+
+    /* DESTELLO SECUNDARIO (zona inferior) */
+    radial-gradient(
+      900px 760px at 60% 85%,
+      rgba(139,92,246,.18) 0%,
+      rgba(99,102,241,.10) 36%,
+      rgba(99,102,241,.05) 54%,
+      transparent 70%
+    ); 
+
+  filter: blur(60px);
+  opacity: 0.95;
+  transform: translateZ(0);
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+
+  background-image:
+    radial-gradient(rgba(255,255,255,.06) 1px, transparent 1px);
+  background-size: 120px 120px;
+  opacity: 0.04;
+  mix-blend-mode: overlay;
+  filter: blur(0.2px);
+}
