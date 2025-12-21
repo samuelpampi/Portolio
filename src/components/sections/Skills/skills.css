@@ -1,0 +1,61 @@
+.gridStack{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.stack-title{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-size: 2.3rem;
+    font-weight: 700;
+    background: var(--subtitle-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.stack-container{
+    width: 45%;
+    height: 400px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* From https://css.glass */
+    background: rgba(125, 125, 125, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.8px);
+    -webkit-backdrop-filter: blur(2.8px);
+    border: 1px solid rgba(125, 125, 125, 0.48);
+}
+
+.stack-list{
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.tech-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.12rem;
+    color: var(--text-primary);
+}
+
+.tech-item span{
+    color: var(--text-secondary);
+}
+
+.skills-section{
+    margin-bottom: 200px;
+}

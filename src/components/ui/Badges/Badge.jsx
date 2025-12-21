@@ -1,7 +1,7 @@
 import "./badge.css";
 import { TECHBADGETS } from "../../data/TechBadgets";
 
-export default function Badge({tech}){
+export function Badge({tech}){
     const techData = TECHBADGETS.find(t => t.id === tech);
     return(
         <li className="badge" style={{ backgroundColor: techData.background, color: techData.color }}>
@@ -9,4 +9,14 @@ export default function Badge({tech}){
             <span>{techData.name}</span>
         </li>
     );
+}
+
+export function BadgeList({techs}){
+    return(
+        <ul className="badges-list">
+            {techs.map((tech, index) => (
+                <Badge key={index} tech={tech} />
+            ))}
+        </ul>
+    )
 }

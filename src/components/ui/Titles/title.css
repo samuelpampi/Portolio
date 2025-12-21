@@ -8,3 +8,60 @@
     -webkit-text-fill-color: transparent;
     margin-bottom: 100px;
 }
+
+.title3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--subtitle-color);
+}
+
+.title-shine {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  margin-top: 50px;
+  font-size: 26px;
+  font-weight: 300;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  
+  /* Brillo */
+  background: linear-gradient(
+    110deg,
+    rgba(255,255,255,0) 30%,
+    rgba(255, 255, 255, 0.973) 50%,
+    rgba(255,255,255,0) 70%
+  );
+  background-size: 200% 100%;
+  background-position: -200% 0;
+
+  -webkit-background-clip: text;
+
+  animation: titleShine 3.8s linear infinite;
+  transition: transform 0.2s ease-in-out;
+}
+
+.title-shine:hover{
+  transform: scale(1.03);
+}
+
+.title-shine::after {
+  content: "";
+  position: absolute;
+  inset: -4px -8px;
+  border-radius: 12px;
+  opacity: 0.6;
+  z-index: -1;
+  filter: blur(1px);
+}
+
+@keyframes titleShine {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}

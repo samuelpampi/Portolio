@@ -310,8 +310,8 @@ export const ViteIcon = ({ size = 14, className }) => (
         y2="78.411%"
         id="vitejs__a"
       >
-        <stop stop-color="#41D1FF" offset="0%" />
-        <stop stop-color="#BD34FE" offset="100%" />
+        <stop stopColor="#41D1FF" offset="0%" />
+        <stop stopColor="#BD34FE" offset="100%" />
       </linearGradient>
       <linearGradient
         x1="43.376%"
@@ -320,9 +320,9 @@ export const ViteIcon = ({ size = 14, className }) => (
         y2="89.03%"
         id="vitejs__b"
       >
-        <stop stop-color="#FFEA83" offset="0%" />
-        <stop stop-color="#FFDD35" offset="8.333%" />
-        <stop stop-color="#FFA800" offset="100%" />
+        <stop stopColor="#FFEA83" offset="0%" />
+        <stop stopColor="#FFDD35" offset="8.333%" />
+        <stop stopColor="#FFA800" offset="100%" />
       </linearGradient>
     </defs>
     <path
@@ -372,8 +372,8 @@ export const NextIcon = ({ size = 14, className }) => (
         y1="116.5"
         y2="160.5"
       >
-        <stop stop-color="white" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         gradientUnits="userSpaceOnUse"
@@ -383,8 +383,8 @@ export const NextIcon = ({ size = 14, className }) => (
         y1="54"
         y2="106.875"
       >
-        <stop stop-color="white" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
     </defs>
   </svg>
@@ -405,11 +405,11 @@ export const NodeIcon = ({ size = 14, className }) => (
         y1="17.487%"
         y2="89.755%"
       >
-        <stop offset="0%" stop-color="#41873F" />
-        <stop offset="32.88%" stop-color="#418B3D" />
-        <stop offset="63.52%" stop-color="#419637" />
-        <stop offset="93.19%" stop-color="#3FA92D" />
-        <stop offset="100%" stop-color="#3FAE2A" />
+        <stop offset="0%" stopColor="#41873F" />
+        <stop offset="32.88%" stopColor="#418B3D" />
+        <stop offset="63.52%" stopColor="#419637" />
+        <stop offset="93.19%" stopColor="#3FA92D" />
+        <stop offset="100%" stopColor="#3FAE2A" />
       </linearGradient>
       <linearGradient
         id="nodejs__c"
@@ -418,10 +418,10 @@ export const NodeIcon = ({ size = 14, className }) => (
         y1="55.169%"
         y2="-18.306%"
       >
-        <stop offset="13.76%" stop-color="#41873F" />
-        <stop offset="40.32%" stop-color="#54A044" />
-        <stop offset="71.36%" stop-color="#66B848" />
-        <stop offset="90.81%" stop-color="#6CC04A" />
+        <stop offset="13.76%" stopColor="#41873F" />
+        <stop offset="40.32%" stopColor="#54A044" />
+        <stop offset="71.36%" stopColor="#66B848" />
+        <stop offset="90.81%" stopColor="#6CC04A" />
       </linearGradient>
       <linearGradient
         id="nodejs__f"
@@ -430,10 +430,10 @@ export const NodeIcon = ({ size = 14, className }) => (
         y1="49.997%"
         y2="49.997%"
       >
-        <stop offset="9.192%" stop-color="#6CC04A" />
-        <stop offset="28.64%" stop-color="#66B848" />
-        <stop offset="59.68%" stop-color="#54A044" />
-        <stop offset="86.24%" stop-color="#41873F" />
+        <stop offset="9.192%" stopColor="#6CC04A" />
+        <stop offset="28.64%" stopColor="#66B848" />
+        <stop offset="59.68%" stopColor="#54A044" />
+        <stop offset="86.24%" stopColor="#41873F" />
       </linearGradient>
       <path
         id="nodejs__b"
@@ -486,6 +486,44 @@ export const DockerIcon = ({ size = 14, className }) => (
     <path d="M13.98 11.08h2.12a.19.19 0 0 0 .19-.19V9.01a.19.19 0 0 0-.19-.19h-2.12a.18.18 0 0 0-.18.18v1.9c0 .1.08.18.18.18m-2.95-5.43h2.12a.19.19 0 0 0 .18-.19V3.57a.19.19 0 0 0-.18-.18h-2.12a.18.18 0 0 0-.19.18v1.9c0 .1.09.18.19.18m0 2.71h2.12a.19.19 0 0 0 .18-.18V6.29a.19.19 0 0 0-.18-.18h-2.12a.18.18 0 0 0-.19.18v1.89c0 .1.09.18.19.18m-2.93 0h2.12a.19.19 0 0 0 .18-.18V6.29a.18.18 0 0 0-.18-.18H8.1a.18.18 0 0 0-.18.18v1.89c0 .1.08.18.18.18m-2.96 0h2.11a.19.19 0 0 0 .19-.18V6.29a.18.18 0 0 0-.19-.18H5.14a.19.19 0 0 0-.19.18v1.89c0 .1.08.18.19.18m5.89 2.72h2.12a.19.19 0 0 0 .18-.19V9.01a.19.19 0 0 0-.18-.19h-2.12a.18.18 0 0 0-.19.18v1.9c0 .1.09.18.19.18m-2.93 0h2.12a.18.18 0 0 0 .18-.19V9.01a.18.18 0 0 0-.18-.19H8.1a.18.18 0 0 0-.18.18v1.9c0 .1.08.18.18.18m-2.96 0h2.11a.18.18 0 0 0 .19-.19V9.01a.18.18 0 0 0-.18-.19H5.14a.19.19 0 0 0-.19.19v1.88c0 .1.08.19.19.19m-2.92 0h2.12a.18.18 0 0 0 .18-.19V9.01a.18.18 0 0 0-.18-.19H2.22a.18.18 0 0 0-.19.18v1.9c0 .1.08.18.19.18m21.54-1.19c-.06-.05-.67-.51-1.95-.51-.34 0-.68.03-1.01.09a3.77 3.77 0 0 0-1.72-2.57l-.34-.2-.23.33a4.6 4.6 0 0 0-.6 1.43c-.24.97-.1 1.88.4 2.66a4.7 4.7 0 0 1-1.75.42H.76a.75.75 0 0 0-.76.75 11.38 11.38 0 0 0 .7 4.06 6.03 6.03 0 0 0 2.4 3.12c1.18.73 3.1 1.14 5.28 1.14.98 0 1.96-.08 2.93-.26a12.25 12.25 0 0 0 3.82-1.4 10.5 10.5 0 0 0 2.61-2.13c1.25-1.42 2-3 2.55-4.4h.23c1.37 0 2.21-.55 2.68-1 .3-.3.55-.66.7-1.06l.1-.28Z" />
   </svg>
 );
+
+export const LinkIcon = ({size = 14, className }) => (
+  <svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    height={size} 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2" 
+    strokeLinecap="round" 
+    strokeLinejoin="round" 
+    className={`${className} icon icon-tabler icons-tabler-outline icon-tabler-link`}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path d="M9 15l6 -6" />
+      <path d="M11 6l.463 -.536a5 5 0 0 1 7.071 7.072l-.534 .464" />
+      <path d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463" />
+  </svg>
+);
+
+export const CodeIcon = ({size = 14, className }) => (
+  <svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    height={size} 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2" 
+    strokeLinecap="round" 
+    strokeLinejoin="round" 
+    className={`${className} icon icon-tabler icons-tabler-outline icon-tabler-code`}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path d="M7 8l-4 4l4 4" />
+      <path d="M17 8l4 4l-4 4" />
+      <path d="M14 4l-4 16" />
+  </svg>
+);
+
+
 
 
 

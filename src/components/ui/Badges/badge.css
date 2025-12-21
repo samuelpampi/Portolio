@@ -6,3 +6,9 @@
     font-size: 0.875rem;
     gap: 5px;
 }
+
+.badges-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}

@@ -1,5 +1,5 @@
 import { CalendarIcon } from "../../ui/Icons/Icons";
-import Badge from "../../ui/Badges/Badge";
+import { BadgeList } from "../../ui/Badges/Badge";
 import "./experience.css";
 
 export default function Job({ job }) {
@@ -12,11 +12,7 @@ export default function Job({ job }) {
             <h3 className="timeline__title">{job.title}</h3>
             <h4 className="timeline__company">{job.company}</h4>
             <p className="timeline__text">{job.description}</p>
-            <ul className="timeline__techList">
-                {job.techs.map((tech, index) => (
-                    <Badge key={index} tech={tech} />
-                ))}
-            </ul>
+            <BadgeList techs={job.techs}/>
         </li>
     );
 }

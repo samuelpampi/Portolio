@@ -1,4 +1,3 @@
-import { GitHubIcon } from "../ui/Icons/Icons";
 import { JavaScriptIcon, ReactIcon, PythonIcon, TypeScriptIcon, AngularIcon, KafkaIcon, PostgreSQLIcon, 
     ViteIcon, NextIcon, NodeIcon, MongoDBIcon, DockerIcon } from "../ui/Icons/Icons";
 

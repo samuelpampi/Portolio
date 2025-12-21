@@ -7,8 +7,8 @@
   padding: 5px 10px;
   font-size: 14px;
   width: fit-content;
-  color: var(--accent-primary);
-  border: 1px solid var(--accent-primary);
+  color: var(--text-secondary);
+  border: 1px solid var(--text-secondary);
   border-radius: 50px;
   background-color: transparent;
   font-weight: 600;
@@ -27,7 +27,7 @@
   border-radius: inherit;
   scale: 0;
   z-index: -1;
-  background-color: var(--accent-primary);
+  background-color: var(--text-secondary);
   transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
 }
 

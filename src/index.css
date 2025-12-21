@@ -36,23 +36,37 @@ body::before {
   pointer-events: none;
 
   background:
-    /* DESTELLO PRINCIPAL (hero / título) */
     radial-gradient(
-      980px 600px at 50% 22%,
+      980px 600px at 50% 10%,
       rgba(56,189,248,.24) 0%,
       rgba(56,189,248,.14) 30%,
       rgba(56,189,248,.07) 48%,
       transparent 65%
     ),
 
-    /* DESTELLO SECUNDARIO (zona inferior) */
     radial-gradient(
-      900px 760px at 60% 85%,
+      900px 760px at 60% 30%,
       rgba(139,92,246,.18) 0%,
       rgba(99,102,241,.10) 36%,
       rgba(99,102,241,.05) 54%,
       transparent 70%
-    ); 
+    ),
+
+    radial-gradient(
+      900px 760px at 30% 55%,
+      rgba(139,92,246,.18) 0%,
+      rgba(99,102,241,.10) 36%,
+      rgba(99,102,241,.05) 54%,
+      transparent 70%
+    ),
+
+    radial-gradient(
+      980px 600px at 50% 80%,
+      rgba(56,189,248,.24) 0%,
+      rgba(56,189,248,.14) 30%,
+      rgba(56,189,248,.07) 48%,
+      transparent 65%
+    );
 
   filter: blur(60px);
   opacity: 0.95;
