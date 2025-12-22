@@ -11,8 +11,8 @@ export default function Skills(){
             <div className="gridStack">
                 <StackContainer title="Frontend" techs={FRONTEND} index={0}/>
                 <StackContainer title="Backend" techs={BACKEND} index={1}/>
-                <StackContainer title="Herramientas" techs={DEVOPS} index={2}/>
-                <StackContainer title="DevOps" techs={LEARNING} index={3}/>
+                <StackContainer title="DevOps" techs={DEVOPS} index={2}/>
+                <StackContainer title="Aprendiendo" techs={LEARNING} index={3}/>
             </div>          
         </Section>
     );
