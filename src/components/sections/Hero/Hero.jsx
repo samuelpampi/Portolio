@@ -1,4 +1,4 @@
-import "./Hero.css";
+import "./hero.css";
 import Avatar from "../../ui/Avatar/Avatar.jsx";
 import Button from "../../ui/Buttons/Button.jsx";
 import { GitHubIcon , LinkedInIcon, DownloadIcon, MailIcon} from "../../ui/Icons/Icons.jsx";
