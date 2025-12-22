@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./navbar.css";
 
 const NAV_ITEMS = [
-    { label: "Home", href: "#" },
+    { label: "Sobre mi", href: "#" },
     { label: "Experiencia", href: "#experience" },
     { label: "Proyectos", href: "#projects" },
     { label: "Skills", href: "#skills" },
