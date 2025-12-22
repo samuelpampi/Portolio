@@ -449,7 +449,7 @@ export const NodeIcon = ({ size = 14, className }) => (
       d="M134.923 1.832c-4.344-2.443-9.502-2.443-13.846 0L6.787 67.801C2.443 70.244 0 74.859 0 79.745v132.208c0 4.887 2.715 9.502 6.787 11.945l114.29 65.968c4.344 2.444 9.502 2.444 13.846 0l114.29-65.968c4.344-2.443 6.787-7.058 6.787-11.945V79.745c0-4.886-2.715-9.501-6.787-11.944L134.923 1.832Z"
     />
     <mask id="nodejs__d" fill="#fff">
-      <use xlink:href="#nodejs__b" />
+      <use xlinkHref="#nodejs__b" />
     </mask>
     <path
       fill="url(#nodejs__c)"
@@ -457,7 +457,7 @@ export const NodeIcon = ({ size = 14, className }) => (
       mask="url(#nodejs__d)"
     />
     <mask id="nodejs__g" fill="#fff">
-      <use xlink:href="#nodejs__e" />
+      <use xlinkHref="#nodejs__e" />
     </mask>
     <path
       fill="url(#nodejs__f)"
@@ -650,8 +650,8 @@ export const AstroIcon = ({size = 14, className }) => (
         y2="84.947"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#D83333" />
-        <stop offset="1" stop-color="#F041FF" />
+        <stop stopColor="#D83333" />
+        <stop offset="1" stopColor="#F041FF" />
       </linearGradient>
     </defs>
   </svg>
@@ -732,10 +732,10 @@ export const VSCodeIcon = ({size = 14, className }) => (
         height="92.246"
         x="-8.394"
         y="15.829"
-        color-interpolation-filters="sRGB"
+        colorInterpolationFilters="sRGB"
         filterUnits="userSpaceOnUse"
       >
-        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feFlood floodOpacity="0" result="BackgroundImageFix" />
         <feColorMatrix
           in="SourceAlpha"
           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
@@ -756,10 +756,10 @@ export const VSCodeIcon = ({size = 14, className }) => (
         height="116.151"
         x="60.417"
         y="-8.076"
-        color-interpolation-filters="sRGB"
+        colorInterpolationFilters="sRGB"
         filterUnits="userSpaceOnUse"
       >
-        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feFlood floodOpacity="0" result="BackgroundImageFix" />
         <feColorMatrix
           in="SourceAlpha"
           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
@@ -782,8 +782,8 @@ export const VSCodeIcon = ({size = 14, className }) => (
         y2="99.742"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#fff" />
-        <stop offset="1" stop-color="#fff" stop-opacity="0" />
+        <stop stopColor="#fff" />
+        <stop offset="1" stopColor="#fff" stopOpacity="0" />
       </linearGradient>
     </defs>
   </svg>
@@ -815,8 +815,8 @@ export const LinuxIcon = ({size = 14, className }) => (
         y1="115.276%"
         y2="41.364%"
       >
-        <stop offset="0%" stop-color="#FFEED7" />
-        <stop offset="100%" stop-color="#BDBFC2" />
+        <stop offset="0%" stopColor="#FFEED7" />
+        <stop offset="100%" stopColor="#BDBFC2" />
       </linearGradient>
       <linearGradient
         id="linux__logosLinuxTux1"
@@ -825,8 +825,8 @@ export const LinuxIcon = ({size = 14, className }) => (
         y1="2.404%"
         y2="90.542%"
       >
-        <stop offset="0%" stop-color="#FFF" stop-opacity=".8" />
-        <stop offset="100%" stop-color="#FFF" stop-opacity="0" />
+        <stop offset="0%" stopColor="#FFF" stopOpacity=".8" />
+        <stop offset="100%" stopColor="#FFF" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="linux__logosLinuxTux2"
@@ -835,8 +835,8 @@ export const LinuxIcon = ({size = 14, className }) => (
         y1="88.248%"
         y2="9.748%"
       >
-        <stop offset="0%" stop-color="#FFEED7" />
-        <stop offset="100%" stop-color="#BDBFC2" />
+        <stop offset="0%" stopColor="#FFEED7" />
+        <stop offset="100%" stopColor="#BDBFC2" />
       </linearGradient>
       <linearGradient
         id="linux__logosLinuxTux3"
@@ -845,8 +845,8 @@ export const LinuxIcon = ({size = 14, className }) => (
         y1="85.49%"
         y2="13.811%"
       >
-        <stop offset="0%" stop-color="#FFEED7" />
-        <stop offset="100%" stop-color="#BDBFC2" />
+        <stop offset="0%" stopColor="#FFEED7" />
+        <stop offset="100%" stopColor="#BDBFC2" />
       </linearGradient>
       <linearGradient
         id="linux__logosLinuxTux4"
@@ -855,8 +855,8 @@ export const LinuxIcon = ({size = 14, className }) => (
         y1="3.102%"
         y2="93.895%"
       >
-        <stop offset="0%" stop-color="#FFF" stop-opacity=".65" />
-        <stop offset="100%" stop-color="#FFF" stop-opacity="0" />
+        <stop offset="0%" stopColor="#FFF" stopOpacity=".65" />
+        <stop offset="100%" stopColor="#FFF" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="linux__logosLinuxTux5"
@@ -865,8 +865,8 @@ export const LinuxIcon = ({size = 14, className }) => (
         y1="5.475%"
         y2="93.524%"
       >
-        <stop offset="0%" stop-color="#FFF" stop-opacity=".65" />
-        <stop offset="100%" stop-color="#FFF" stop-opacity="0" />
+        <stop offset="0%" stopColor="#FFF" stopOpacity=".65" />
+        <stop offset="100%" stopColor="#FFF" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="linux__logosLinuxTux6"
@@ -875,8 +875,8 @@ export const LinuxIcon = ({size = 14, className }) => (
         y1="89.845%"
         y2="40.632%"
       >
-        <stop offset="0%" stop-color="#FFEED7" />
-        <stop offset="100%" stop-color="#BDBFC2" />
+        <stop offset="0%" stopColor="#FFEED7" />
+        <stop offset="100%" stopColor="#BDBFC2" />
       </linearGradient>
       <linearGradient
         id="linux__logosLinuxTux7"
@@ -885,8 +885,8 @@ export const LinuxIcon = ({size = 14, className }) => (
         y1="99.975%"
         y2="23.545%"
       >
-        <stop offset="0%" stop-color="#FFEED7" />
-        <stop offset="100%" stop-color="#BDBFC2" />
+        <stop offset="0%" stopColor="#FFEED7" />
+        <stop offset="100%" stopColor="#BDBFC2" />
       </linearGradient>
       <linearGradient
         id="linux__logosLinuxTux8"
@@ -895,8 +895,8 @@ export const LinuxIcon = ({size = 14, className }) => (
         y1="13.229%"
         y2="94.673%"
       >
-        <stop offset="0%" stop-color="#FFF" stop-opacity=".8" />
-        <stop offset="100%" stop-color="#FFF" stop-opacity="0" />
+        <stop offset="0%" stopColor="#FFF" stopOpacity=".8" />
+        <stop offset="100%" stopColor="#FFF" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="linux__logosLinuxTux9"
@@ -905,8 +905,8 @@ export const LinuxIcon = ({size = 14, className }) => (
         y1="37.327%"
         y2="92.782%"
       >
-        <stop offset="0%" stop-color="#FFF" stop-opacity=".65" />
-        <stop offset="100%" stop-color="#FFF" stop-opacity="0" />
+        <stop offset="0%" stopColor="#FFF" stopOpacity=".65" />
+        <stop offset="100%" stopColor="#FFF" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="linux__logosLinuxTuxa"
@@ -915,8 +915,8 @@ export const LinuxIcon = ({size = 14, className }) => (
         y1="2.299%"
         y2="81.204%"
       >
-        <stop offset="0%" stop-color="#FFF" stop-opacity=".65" />
-        <stop offset="100%" stop-color="#FFF" stop-opacity="0" />
+        <stop offset="0%" stopColor="#FFF" stopOpacity=".65" />
+        <stop offset="100%" stopColor="#FFF" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="linux__logosLinuxTuxb"
@@ -925,8 +925,8 @@ export const LinuxIcon = ({size = 14, className }) => (
         y1="2.272%"
         y2="71.799%"
       >
-        <stop offset="0%" stop-color="#FFF" stop-opacity=".65" />
-        <stop offset="100%" stop-color="#FFF" stop-opacity="0" />
+        <stop offset="0%" stopColor="#FFF" stopOpacity=".65" />
+        <stop offset="100%" stopColor="#FFF" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="linux__logosLinuxTuxc"
@@ -935,8 +935,8 @@ export const LinuxIcon = ({size = 14, className }) => (
         y1="48.921%"
         y2="98.1%"
       >
-        <stop offset="0%" stop-color="#FFA63F" />
-        <stop offset="100%" stop-color="#FF0" />
+        <stop offset="0%" stopColor="#FFA63F" />
+        <stop offset="100%" stopColor="#FF0" />
       </linearGradient>
       <linearGradient
         id="linux__logosLinuxTuxd"
@@ -945,8 +945,8 @@ export const LinuxIcon = ({size = 14, className }) => (
         y1="143.009%"
         y2="-64.622%"
       >
-        <stop offset="0%" stop-color="#FFEED7" />
-        <stop offset="100%" stop-color="#BDBFC2" />
+        <stop offset="0%" stopColor="#FFEED7" />
+        <stop offset="100%" stopColor="#BDBFC2" />
       </linearGradient>
       <linearGradient
         id="linux__logosLinuxTuxe"
@@ -955,8 +955,8 @@ export const LinuxIcon = ({size = 14, className }) => (
         y1="34.024%"
         y2="89.175%"
       >
-        <stop offset="0%" stop-color="#FFA63F" />
-        <stop offset="100%" stop-color="#FF0" />
+        <stop offset="0%" stopColor="#FFA63F" />
+        <stop offset="100%" stopColor="#FF0" />
       </linearGradient>
       <linearGradient
         id="linux__logosLinuxTuxf"
@@ -965,8 +965,8 @@ export const LinuxIcon = ({size = 14, className }) => (
         y1="-17.216%"
         y2="66.118%"
       >
-        <stop offset="0%" stop-color="#FFF" stop-opacity=".65" />
-        <stop offset="100%" stop-color="#FFF" stop-opacity="0" />
+        <stop offset="0%" stopColor="#FFF" stopOpacity=".65" />
+        <stop offset="100%" stopColor="#FFF" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="linux__logosLinuxTuxg"
@@ -975,8 +975,8 @@ export const LinuxIcon = ({size = 14, className }) => (
         y1="1.565%"
         y2="104.313%"
       >
-        <stop offset="0%" stop-color="#FFF" stop-opacity=".65" />
-        <stop offset="100%" stop-color="#FFF" stop-opacity="0" />
+        <stop offset="0%" stopColor="#FFF" stopOpacity=".65" />
+        <stop offset="100%" stopColor="#FFF" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="linux__logosLinuxTuxh"
@@ -985,8 +985,8 @@ export const LinuxIcon = ({size = 14, className }) => (
         y1="4.533%"
         y2="92.827%"
       >
-        <stop offset="0%" stop-color="#FFF" stop-opacity=".65" />
-        <stop offset="100%" stop-color="#FFF" stop-opacity="0" />
+        <stop offset="0%" stopColor="#FFF" stopOpacity=".65" />
+        <stop offset="100%" stopColor="#FFF" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="linux__logosLinuxTuxi"
@@ -995,8 +995,8 @@ export const LinuxIcon = ({size = 14, className }) => (
         y1="17.609%"
         y2="99.385%"
       >
-        <stop offset="0%" stop-color="#FFA63F" />
-        <stop offset="100%" stop-color="#FF0" />
+        <stop offset="0%" stopColor="#FFA63F" />
+        <stop offset="100%" stopColor="#FF0" />
       </linearGradient>
       <linearGradient
         id="linux__logosLinuxTuxj"
@@ -1005,8 +1005,8 @@ export const LinuxIcon = ({size = 14, className }) => (
         y1="2.89%"
         y2="94.17%"
       >
-        <stop offset="0%" stop-color="#FFF" stop-opacity=".65" />
-        <stop offset="100%" stop-color="#FFF" stop-opacity="0" />
+        <stop offset="0%" stopColor="#FFF" stopOpacity=".65" />
+        <stop offset="100%" stopColor="#FFF" stopOpacity="0" />
       </linearGradient>
       <filter
         id="linux__logosLinuxTuxk"
@@ -1027,7 +1027,7 @@ export const LinuxIcon = ({size = 14, className }) => (
     <g fill="none">
       <path
         fill="#000"
-        fill-opacity=".2"
+        fillOpacity=".2"
         d="M235.125 249.359c0 17.355-52.617 31.497-117.54 31.497S.044 266.806.044 249.359c0-17.356 52.618-31.498 117.54-31.498c64.924 0 117.45 14.142 117.541 31.498"
         filter="url(#linux__logosLinuxTuxk)"
         transform="translate(10)"
