@@ -5,7 +5,7 @@ import "./experience.css";
 
 export default function Experience(){
     return(
-        <Section className="experience-section">
+        <Section id="experience" className="experience-section">
             <Title text="Experiencia"/>
             <Timeline />
         </Section>

@@ -1,8 +1,8 @@
 import "./section.css";
 
-export default function Section({children, className=""}) {
+export default function Section({children, className="", id}) {
     return(
-        <section className={`section ${className}`}>
+        <section id={id} className={`section ${className}`} data-reveal>
             {children}
         </section>
     );

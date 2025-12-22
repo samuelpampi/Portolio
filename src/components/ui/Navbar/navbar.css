@@ -1,0 +1,32 @@
+.menu-nav{
+    align-self: center;
+    position: fixed;
+    top: 20px;
+    margin: 0 auto;
+    padding: 8px 15px;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    z-index: 99999999;
+    border-radius: 100px;
+    border: 1px solid var(--border-subtle);
+    background: rgba(11, 16, 32, 0.55); /* --bg-surface con alpha */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
+
+.nav_link{
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: all 0.4 ease-in-out;
+}
+
+.nav_link:hover{
+    color: var(--text-primary);
+}
+
+.nav_link.is_selected{
+  color: var(--text-primary);
+}

@@ -1,11 +1,11 @@
 import "./Hero.css";
 import Avatar from "../../ui/Avatar/Avatar.jsx";
 import Button from "../../ui/Buttons/Button.jsx";
-import { GitHubIcon , LinkedInIcon, DownloadIcon } from "../../ui/Icons/Icons.jsx";
+import { GitHubIcon , LinkedInIcon, DownloadIcon, MailIcon} from "../../ui/Icons/Icons.jsx";
 
 export default function Hero(){
     return(
-        <section className="hero">
+        <section id="about" className="hero" data-reveal>
             <article>
                 <div className="hero-content">
                     <h1 className="hero-title">Hola! Soy Samuel </h1>
@@ -29,6 +29,12 @@ export default function Hero(){
                         <Button url="/files/CV-SamuelPampillon.pdf">
                             <DownloadIcon size="18" className="download-icon"/>
                             <span className="button-text">Descargar CV</span>
+                        </Button>
+                    </li>
+                    <li>
+                        <Button url="mailto:samuelpampillonroa@gmail.com">
+                            <MailIcon size="18" className="download-icon"/>
+                            <span className="button-text">Contactame</span>
                         </Button>
                     </li>
                 </ul>

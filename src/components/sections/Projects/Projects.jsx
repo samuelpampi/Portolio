@@ -6,11 +6,11 @@ import "./projects.css";
 
 export default function Projects(){
     return(
-        <Section className="projects-section">
+        <Section id="projects" className="projects-section">
             <Title text="Proyectos personales"/>
             <div className="projects-list">
                 {PROJECTS.map((project, index) => (
-                    <ProjectItem key={index} project={project}/>
+                    <ProjectItem key={index} project={project} index={index}/>
                 ))}
             </div>
             <TitleShine>

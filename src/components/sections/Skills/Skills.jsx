@@ -6,13 +6,13 @@ import "./skills.css";
 
 export default function Skills(){
     return(
-        <Section className="skills-section">
+        <Section id="skills" className="skills-section">
             <Title text="Stack Tecnológico"/>
             <div className="gridStack">
-                <StackContainer title="Frontend" techs={FRONTEND}/>
-                <StackContainer title="Backend" techs={BACKEND}/>
-                <StackContainer title="Herramientas" techs={DEVOPS}/>
-                <StackContainer title="Aprendiendo" techs={LEARNING}/>
+                <StackContainer title="Frontend" techs={FRONTEND} index={0}/>
+                <StackContainer title="Backend" techs={BACKEND} index={1}/>
+                <StackContainer title="Herramientas" techs={DEVOPS} index={2}/>
+                <StackContainer title="Aprendiendo" techs={LEARNING} index={3}/>
             </div>          
         </Section>
     );

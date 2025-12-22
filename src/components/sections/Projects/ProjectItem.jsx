@@ -4,9 +4,13 @@ import Button from "../../ui/Buttons/Button";
 import { CodeIcon, LinkIcon } from "../../ui/Icons/Icons";
 import "./projects.css"
 
-export default function ProjectItem({project}){
+export default function ProjectItem({project, index}){
     return(
-        <article className="project-item">
+        <article
+            className="project-item"
+            data-reveal
+            style={{ "--reveal-delay": `${index * 0.08}s` }}
+        >
             <div className="project-mockup-wrapper">
                 <img className="project-mockup" src={project.mockup} alt={`Mockup del projecto ${project.name}`} />
                 <div className="project-mockup-overlay" aria-hidden="true"></div>

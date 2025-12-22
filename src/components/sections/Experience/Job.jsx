@@ -2,9 +2,13 @@ import { CalendarIcon } from "../../ui/Icons/Icons";
 import { BadgeList } from "../../ui/Badges/Badge";
 import "./experience.css";
 
-export default function Job({ job }) {
+export default function Job({ job, index }) {
     return(
-        <li className="timeline__item">
+        <li
+            className="timeline__item"
+            data-reveal
+            style={{ "--reveal-delay": `${index * 0.08}s` }}
+        >
             <span className="timeline__dot" aria-hidden="true">
                 <CalendarIcon size="22" className="timeline__dotIcon" />
             </span>
