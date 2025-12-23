@@ -12,3 +12,19 @@
   flex-wrap: wrap;
   gap: 8px;
 }
+
+@media(min-width: 320px){
+    .badges-list{
+        margin-top: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(min-width: 1024px){
+    .badges-list{
+        margin-top: 30px;
+        align-items: start;
+        justify-content: start;
+    }
+}

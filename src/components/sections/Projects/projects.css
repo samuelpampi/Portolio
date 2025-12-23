@@ -78,4 +78,30 @@
     text-decoration: none;
 }
 
+@media(min-width: 320px){
+    .project-item{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .list-buttons{
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(min-width: 1024px){
+    .project-item{
+        flex-direction: row;
+        height: 230px;
+    }
+
+    .list-buttons{
+        align-items: start;
+        justify-content: start;
+    }
+
+    .project-content{
+        height: 214px;
+    }
+}
 

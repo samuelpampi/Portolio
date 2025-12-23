@@ -9,7 +9,7 @@
 .timeline__item {
   position: relative;
   margin: 0 0 60px 0;      
-  padding-left: 18px;      
+  /*padding-left: 18px;*/      
 }
 
 /* Estilo del “dot” de la línea temporal */
@@ -77,4 +77,20 @@
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+}
+
+.timeline .badges-list{
+  justify-content: start;
+}
+
+@media(min-width: 768px){
+  .experience-section{
+    padding: 0 50px;
+  }
+}
+
+@media(min-width: 1024px){
+  .experience-section{
+    padding: 0 1.5rem;
+  }
 }

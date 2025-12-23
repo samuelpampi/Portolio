@@ -59,3 +59,78 @@
 .skills-section{
     margin-bottom: 200px;
 }
+
+@media(min-width: 320px){
+    .gridStack{
+        flex-direction: column;
+    }
+
+    .stack-title{
+        font-size: 1.8rem;
+    }
+
+    .stack-container{
+        width: 100%;
+        height: fit-content;
+    }
+
+    .tech-item{
+        font-size: 1rem;
+    }
+
+    .tech-skill-icon{
+        height: 30px;
+    }
+}
+
+@media(min-width: 768px){
+    .gridStack{
+        flex-direction: column;
+    }
+
+    .stack-title{
+        font-size: 1.8rem;
+    }
+
+    .stack-container{
+        width: 50%;
+        height: fit-content;
+    }
+
+    .tech-item{
+        font-size: 1.1rem;
+    }
+
+    .tech-skill-icon{
+        height: 35px;
+    }
+}
+
+@media(min-width: 1024px){
+    .gridStack{
+        flex-direction: row;
+    }
+
+    .stack-title{
+        font-size: 1.8rem;
+    }
+
+    .stack-container{
+        width: 45%;
+        height: 400px;
+    }
+
+    .tech-item{
+        font-size: 1.1rem;
+    }
+}
+
+@media(min-width: 1440px){
+    .tech-item{
+        font-size: 1.12rem;
+    }
+
+    .tech-skill-icon{
+        height: 45px;
+    }
+}
