@@ -1,5 +1,5 @@
 main{
-  position: relative;
+    position: relative;
     max-width: 1000px;
     min-height: 100vh;
     margin: 0 auto;
@@ -44,3 +44,33 @@ main{
     transition: none !important;
   }
 }
+
+/* MOBILE */
+@media (min-width: 320px){
+  main{
+    width: 100%;
+    align-items: center;
+  }
+}
+
+/* TABLET */
+@media (min-width: 768px){
+  main{
+    width: 100%;
+  }
+}
+
+/* SMALL SCREEN */
+@media (min-width: 1024px){
+  main{
+    width: 100%;
+  }
+}
+
+/*  SCREEN */
+@media (min-width: 1440px){
+  main{
+   max-width: 1000px;
+  }
+}
+

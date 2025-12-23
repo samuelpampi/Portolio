@@ -6,7 +6,7 @@ import { GitHubIcon , LinkedInIcon, DownloadIcon, MailIcon} from "../../ui/Icons
 export default function Hero(){
     return(
         <section id="about" className="hero" data-reveal>
-            <article>
+            <article className="hero-data">
                 <div className="hero-content">
                     <h1 className="hero-title">Hola! Soy Samuel </h1>
                     <h2 className="hero-subtitle">Desarrollador Full Stack</h2>
