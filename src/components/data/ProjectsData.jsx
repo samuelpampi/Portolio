@@ -5,7 +5,7 @@ export const PROJECTS = [
         techs: ["vite", "react", "javascript"],
         github: "https://github.com/samuelpampi/Connect4",
         preview: "https://connect4-spr.netlify.app/",
-        mockup: "/img/connect4-mockup.png"
+        mockup: "/img/connect4-mockup.webp"
     },
     {
         name: "Marvel Match Up",
@@ -13,7 +13,7 @@ export const PROJECTS = [
         techs: ["javascript"],
         github: "https://github.com/samuelpampi/Heroic-Match",
         preview: "https://heroic-match.netlify.app/",
-        mockup: "/img/marvel-mockup.png"
+        mockup: "/img/marvel-mockup.webp"
     },
     {
         name: "RayTracer",
@@ -21,7 +21,7 @@ export const PROJECTS = [
         techs: ["next", "react", "javascript"],
         github: "https://github.com/samuelpampi/RayTracer",
         preview: null,
-        mockup: "/img/raytracer-mockup.png"
+        mockup: "/img/raytracer-mockup.webp"
     },
     {
         name: "Tuchdown",
@@ -29,6 +29,6 @@ export const PROJECTS = [
         techs: ["typescript"],
         github: "https://github.com/samuelpampi/Tuchdown",
         preview: null,
-        mockup: "/img/tuchdown-mockup.png"
+        mockup: "/img/tuchdown-mockup.webp"
     },
 ]
