@@ -12,7 +12,7 @@ export default function Hero(){
                     <h2 className="hero-subtitle">Desarrollador Full Stack</h2>
                     <p className="hero-text"><span>+2 años de experiencia</span> de desarrollador en el sector de la ciberseguridad. Trabajo con una mentalidad de mejora continua y aprendizaje constante.</p>
                 </div>
-                <ul>
+                <ul className="social-buttons">
                     <li>
                         <Button url="https://www.linkedin.com/in/samuelpampillonroa/">
                             <LinkedInIcon size="18" className="linkedin-icon"/>

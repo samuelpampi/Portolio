@@ -63,14 +63,14 @@ main{
 /* SMALL SCREEN */
 @media (min-width: 1024px){
   main{
-    width: 100%;
+    width: 900px;
   }
 }
 
 /*  SCREEN */
 @media (min-width: 1440px){
   main{
-   max-width: 1000px;
+   width: 1000px;
   }
 }
 

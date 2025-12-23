@@ -65,3 +65,31 @@
     background-position: -200% 0;
   }
 }
+
+/* MOBILE */
+@media (min-width: 320px){
+  .title{
+    font-size: 3rem;
+  }
+}
+
+/* TABLET */
+@media (min-width: 768px){
+  .title{
+    font-size: 3.2rem;
+  }
+}
+
+/* SMALL SCREEN */
+@media (min-width: 1024px){
+  .title{
+    font-size: 4rem;
+  }
+}
+
+/*  SCREEN */
+@media (min-width: 1440px){
+  main{
+   width: 1000px;
+  }
+}

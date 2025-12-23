@@ -5,3 +5,17 @@
     flex-direction: column;
     scroll-margin-top: 100px;
 }
+
+/* MOBILE */
+@media (min-width: 320px){
+  .section{
+    margin-top: 100px;
+  }
+}
+
+/*  SCREEN */
+@media (min-width: 1440px){
+  .section{
+   margin-top: 200px;
+  }
+}
