@@ -79,6 +79,10 @@
   gap: 8px;
 }
 
+.timeline .badges-list{
+  justify-content: start;
+}
+
 @media(min-width: 768px){
   .experience-section{
     padding: 0 50px;

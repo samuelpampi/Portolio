@@ -10,7 +10,7 @@ export default function Hero(){
                 <div className="hero-content">
                     <h1 className="hero-title">Hola! Soy Samuel </h1>
                     <h2 className="hero-subtitle">Desarrollador Full Stack</h2>
-                    <p className="hero-text"><span>+2 años de experiencia</span> de desarrollador en el sector de la ciberseguridad. Trabajo con una mentalidad de mejora continua y aprendizaje constante.</p>
+                    <p className="hero-text"><span>+2 años de experiencia</span> de desarrollador en el sector de la ciberseguridad. Trabajo con una mentalidad de mejora continua y aprendizaje constante. <br/><br/>Me defino como una persona curiosa, perseverante y autodidacta.</p>
                 </div>
                 <ul className="social-buttons">
                     <li>
