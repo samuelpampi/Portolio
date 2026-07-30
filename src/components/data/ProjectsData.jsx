@@ -2,7 +2,7 @@ export const PROJECTS = [
     
     {
         name: "CrewGO",
-        description: "Aplicación web desarrollada con el stack MERN para la gestión centralizada de grupos y comunidades. Permite crear eventos, comunicarse mediante chat en tiempo real, realizar encuestas, compartir archivos y administrar miembros con distintos roles y permisos.",
+        description: "Aplicación web desarrollada con el stack MERN para la gestión de grupos y comunidades. Permite crear eventos, chat en tiempo real, encuestas, compartir archivos y administrar miembros con roles y permisos.",
         techs: ["react", "javascript", "node", "express", "mongodb"],
         github: null,
         preview: "https://crewgo.netlify.app",
