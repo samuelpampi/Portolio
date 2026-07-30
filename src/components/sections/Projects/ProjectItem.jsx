@@ -20,12 +20,12 @@ export default function ProjectItem({project, index}){
                 <p className="project-description">{project.description}</p>
                 <BadgeList techs={project.techs}/>
                 <ul className="list-buttons">
-                    <li>
+                    {project.github && <li>
                         <Button url={project.github}>
                             <CodeIcon size="18" className="github-icon"/>
                             <span className="button-text">Code</span>
                         </Button>
-                    </li>
+                    </li>}
 
                     {project.preview && <li>
                         <Button url={project.preview}>

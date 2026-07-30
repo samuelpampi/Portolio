@@ -1,4 +1,13 @@
 export const PROJECTS = [
+    
+    {
+        name: "CrewGO",
+        description: "Aplicación web desarrollada con el stack MERN que permite gestionar grupos de actividades de forma centralizada. Los usuarios pueden crear y administrar comunidades, organizar eventos, comunicarse mediante chat en tiempo real, realizar encuestas, compartir archivos y gestionar miembros con distintos roles y permisos.",
+        techs: ["react", "javascript", "node", "express", "mongodb"],
+        github: null,
+        preview: "https://crewgo.netlify.app",
+        mockup: "/img/crewgo_mockup.webp"
+    },
     {
         name: "Connect4",
         description: "Clásico juego de cuatro en raya o conecta cuatro, donde el objetivo es conectar 4 fichas seguidas del mismo color, pensado para jugar 1 vs 1 de forma local.",
@@ -14,14 +23,6 @@ export const PROJECTS = [
         github: "https://github.com/samuelpampi/Heroic-Match",
         preview: "https://heroic-match.netlify.app/",
         mockup: "/img/marvel-mockup.webp"
-    },
-    {
-        name: "RayTracer",
-        description: "Pequeño proyecto simulando un comercio electrónico de tarjetas gráficas implementando una API real de AMAZON. Ideal para practicar conceptos de Routing con NEXT.js",
-        techs: ["next", "react", "javascript"],
-        github: "https://github.com/samuelpampi/RayTracer",
-        preview: null,
-        mockup: "/img/raytracer-mockup.webp"
     },
     {
         name: "Tuchdown",

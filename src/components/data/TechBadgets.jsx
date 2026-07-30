@@ -1,5 +1,5 @@
 import { JavaScriptIcon, ReactIcon, PythonIcon, TypeScriptIcon, AngularIcon, KafkaIcon, PostgreSQLIcon, 
-    ViteIcon, NextIcon, NodeIcon, MongoDBIcon, DockerIcon } from "../ui/Icons/Icons";
+    ViteIcon, NextIcon, NodeIcon, MongoDBIcon, DockerIcon, ExpressIcon, SQLServerIcon, FastAPIIcon } from "../ui/Icons/Icons";
 
 export const TECHBADGETS = [
     { 
@@ -81,6 +81,27 @@ export const TECHBADGETS = [
         id: "docker",
         icon: <DockerIcon size={16} className="tech-badget-icon"/>,
         name: "Docker" ,
+        background: "#11263fff",
+        color: "#ffffff"
+    },
+    {
+        id: "express",
+        icon: <ExpressIcon size={16} className="tech-badget-icon"/>,
+        name: "Express" ,
+        background: "#11263fff",
+        color: "#ffffff"
+    },
+    {
+        id: "sqlserver",
+        icon: <SQLServerIcon size={16} className="tech-badget-icon"/>,
+        name: "SQL Server" ,
+        background: "#11263fff",
+        color: "#ffffff"
+    },
+    {
+        id: "fastapi",
+        icon: <FastAPIIcon size={16} className="tech-badget-icon"/>,
+        name: "FastAPI" ,
         background: "#11263fff",
         color: "#ffffff"
     }
