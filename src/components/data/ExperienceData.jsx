@@ -3,7 +3,7 @@ export const JOBS = [
         title: "Delivery Consultant",
         company: "Deloitte",
         time: "Apr 2026 - Actualidad",
-        description: "Desarrollo de soluciones de software para clientes, desde la implementación de funcionalidades, hasta el mantemiento y procesos de despliegue y soporte técnico. Creada una aplicación GRC específica para un cliente lider en el sector de las telecomunicaciones.",
+        description: "Desarrollo de soluciones de software para clientes, participando en todo el ciclo de vida del producto: análisis de requisitos, diseño de la arquitectura, planificación técnica, desarrollo, despliegue y soporte. He diseñado y desarrollado íntegramente desde cero una aplicación GRC para un cliente líder del sector de las telecomunicaciones, siendo responsable de la definición de la solución, la implementación de sus funcionalidades y su evolución.",
         techs: ["python", "fastapi", "react", "typescript", "next", "sqlserver", "docker"]
     },
     {
