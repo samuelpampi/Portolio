@@ -1,8 +1,8 @@
 .gridStack{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
-    flex-wrap: wrap;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
 }
 
@@ -19,8 +19,6 @@
 }
 
 .stack-container{
-    width: 45%;
-    height: 400px;
     padding: 20px 10px;
     display: flex;
     flex-direction: column;
@@ -48,8 +46,10 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
+    width: 80px;
     font-size: 1.12rem;
     color: var(--text-primary);
+    text-align: center;
 }
 
 .tech-item span{
@@ -60,18 +60,14 @@
     margin-bottom: 200px;
 }
 
+
 @media(min-width: 320px){
     .gridStack{
-        flex-direction: column;
+        grid-template-columns: 1fr;
     }
 
     .stack-title{
         font-size: 1.8rem;
-    }
-
-    .stack-container{
-        width: 100%;
-        height: fit-content;
     }
 
     .tech-item{
@@ -85,16 +81,11 @@
 
 @media(min-width: 768px){
     .gridStack{
-        flex-direction: column;
+        grid-template-columns: 1fr;
     }
 
     .stack-title{
         font-size: 1.8rem;
-    }
-
-    .stack-container{
-        width: 50%;
-        height: fit-content;
     }
 
     .tech-item{
@@ -108,16 +99,15 @@
 
 @media(min-width: 1024px){
     .gridStack{
-        flex-direction: row;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .stack-container{
+        min-height: 380px;
     }
 
     .stack-title{
         font-size: 1.8rem;
-    }
-
-    .stack-container{
-        width: 45%;
-        height: 400px;
     }
 
     .tech-item{

@@ -1,6 +1,6 @@
 import { JavaScriptIcon, ReactIcon, PythonIcon, TypeScriptIcon, AngularIcon, KafkaIcon, PostgreSQLIcon, 
     ViteIcon, NextIcon, NodeIcon, MongoDBIcon, DockerIcon, GitHubIcon, HTMLIcon, CSSIcon, FigmaIcon, PhpIcon, 
-    ExpressIcon, AstroIcon, TailwindIcon, VSCodeIcon, NPMIcon, LinuxIcon, NotionIcon } from "../ui/Icons/Icons"; 
+    ExpressIcon, AstroIcon, TailwindIcon, VSCodeIcon, NPMIcon, LinuxIcon, NotionIcon, FastAPIIcon, AWSIcon, AzureIcon } from "../ui/Icons/Icons"; 
 
 export const BACKEND = [
     { 
@@ -37,6 +37,11 @@ export const BACKEND = [
         id: "express",
         name: "Express.js",
         icon: <ExpressIcon size={45} className="tech-skill-icon" />
+    },
+    {
+        id: "fastapi",
+        name: "FastAPI",
+        icon: <FastAPIIcon size={45} className="tech-skill-icon" />
     }
 ];
 
@@ -99,6 +104,16 @@ export const LEARNING = [
         id: "tailwind",
         name: "Tailwind CSS",
         icon: <TailwindIcon size={45} className="tech-skill-icon" />
+    },
+    {
+        id: "aws", 
+        name: "Amazon Web Services",
+        icon: <AWSIcon size={45} className="tech-skill-icon" />
+    },
+    {
+        id: "azure",
+        name: "Microsoft Azure",
+        icon: <AzureIcon size={45} className="tech-skill-icon" />
     }
 ];
 
